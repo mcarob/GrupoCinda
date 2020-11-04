@@ -8,7 +8,7 @@
   <meta name="description" content="Sleek Dashboard - Free Bootstrap 4 Admin Dashboard Template and UI Kit. It is very powerful bootstrap admin dashboard, which allows you to build products like admin panels, content management systems and CRMs etc.">
 
 
-  <title>Administrador CINDA</title>
+  <title>Administrativo CINDA</title>
 
   <!-- GOOGLE FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Poppins:400,500,600,700|Roboto:400,500" rel="stylesheet" />
@@ -94,41 +94,17 @@
           <ul class="nav sidebar-inner" id="sidebar-menu">
 
 
-            <li class="has-sub">
-              <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#prof" aria-expanded="false" aria-controls="prof">
-                <i class="mdi mdi-folder-multiple-outline"></i>
-                <span class="nav-text">Profesionales</span> <b class="caret"></b>
-              </a>
-              <ul class="collapse" id="prof" data-parent="#sidebar-menu">
-                <div class="sub-menu">
-                  <li>
-                    <a class="sidenav-item-link" href="profesionales.php">
-                      <span class="nav-text">Listar</span>
-                    </a>
-                  </li>
-                </div>
-              </ul>
-            </li>
+        
 
 
-
-
-
-
-
-
-            <li class="has-sub">
+          <li class="has-sub">
               <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#pacientes" aria-expanded="false" aria-controls="pacientes">
                 <i class="mdi mdi-folder-multiple-outline"></i>
                 <span class="nav-text">Pacientes</span> <b class="caret"></b>
               </a>
               <ul class="collapse" id="pacientes" data-parent="#sidebar-menu">
                 <div class="sub-menu">
-                  <li>
-                    <a class="sidenav-item-link" href="alert.html">
-                      <span class="nav-text">Agregar</span>
-                    </a>
-                  </li>
+                  
 
                   <li>
                     <a class="sidenav-item-link" href="Pacientes.php">
@@ -136,15 +112,17 @@
                     </a>
                   </li>
 
-                  <li>
-                    <a class="sidenav-item-link" href="alert.html">
-                      <span class="nav-text">PED</span>
-                    </a>
-                  </li>
+                
 
                 </div>
               </ul>
             </li>
+
+
+
+
+
+          
 
 
             <li class="has-sub">
@@ -190,7 +168,7 @@
                       <div class="sub-menu">
                       
                         <li>
-                          <a href="responsive-data-table.html">Cobro mensual por eps</a>
+                          <a href="CobroXeps.php">Cobro mensual por eps</a>
                         </li>
 
                       </div>

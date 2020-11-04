@@ -5,7 +5,7 @@
 <?php
 
 include('Header.php');
-include('MenuAdmi.php')
+include('MenuCor.php')
 
 
 ?>
@@ -69,10 +69,8 @@ include('MenuAdmi.php')
 												    Acciones
                                                 </button>
                                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="DesPac.php">Ver más</a>
-                                                    <a class="dropdown-item" href="#">Editar</a>
-                                                    <a class="dropdown-item" href="#">Inactivar</a>
-                                                </div>
+                                                <a class="dropdown-item" href="DesPac.php">Ver más</a>
+                                                   </div>
                                             </div>
 
                                         </td>
@@ -92,8 +90,6 @@ include('MenuAdmi.php')
                                                 </button>
                                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                                 <a class="dropdown-item" href="DesPac.php">Ver más</a>
-                                                    <a class="dropdown-item" href="#">Editar</a>
-                                                    <a class="dropdown-item" href="#">Inactivar</a>
                                                 </div>
                                             </div>
 

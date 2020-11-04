@@ -5,7 +5,7 @@
 <?php
 
 include('Header.php');
-include('MenuAdmi.php')
+include('MenuCor.php')
 
 
 ?>
@@ -25,17 +25,19 @@ include('MenuAdmi.php')
               </a>
             </li>
             <li class="breadcrumb-item">
-              Pacientes
+              Informes
             </li>
-            <li class="breadcrumb-item" aria-current="page">Listar</li>
+            <li class="breadcrumb-item" aria-current="page">Seguimiento</li>
+            <li class="breadcrumb-item" aria-current="page">PED</li>
+
           </ol>
         </nav>
 
       </div>
-      <!-- <div>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-add-contact"> Agregar
+      <div>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-mes"> Seleccionar
         </button>
-      </div> -->
+      </div>
     </div>
 
         <div class="row">
@@ -69,9 +71,13 @@ include('MenuAdmi.php')
 												    Acciones
                                                 </button>
                                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="DesPac.php">Ver más</a>
-                                                    <a class="dropdown-item" href="#">Editar</a>
-                                                    <a class="dropdown-item" href="#">Inactivar</a>
+                                                    <a class="dropdown-item" href="#">Descargar Fonoaudiologia</a>
+                                                    <a class="dropdown-item" href="#">Descargar Psicologia</a>
+                                                    <a class="dropdown-item" href="#">Descargar Musicoterapia</a>
+                                                    <a class="dropdown-item" href="#">Descargar Habilidades de habla</a>
+                                                    <a class="dropdown-item" href="#">Descargar Apoyo</a>
+
+                                            
                                                 </div>
                                             </div>
 
@@ -91,10 +97,8 @@ include('MenuAdmi.php')
 												    Acciones
                                                 </button>
                                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="DesPac.php">Ver más</a>
-                                                    <a class="dropdown-item" href="#">Editar</a>
-                                                    <a class="dropdown-item" href="#">Inactivar</a>
-                                                </div>
+                                                <a class="dropdown-item" href="#">Descargar</a>
+                                                 </div>
                                             </div>
 
                                         </td>
@@ -107,6 +111,59 @@ include('MenuAdmi.php')
                             </table>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="modal-mes" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <form>
+                        <div class="modal-header px-4">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">SELECCIONAR MES</h5>
+                        </div>
+                        <div class="modal-body px-4">
+
+
+
+                            <div class="row mb-2">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="firstName">Mes</label>
+                                        <select class="form-control" id="firstName" value="">
+                                            <option>Enero</option>
+                                            <option>Marzo</option>
+                                            <option>Abril</option>
+                                            <option>Mayo</option>
+                                            <option>Junio</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="firstName">Año</label>
+                                        <select class="form-control" id="firstName" value="">
+
+                                            <option>2023</option>
+                                            <option>2022</option>
+                                            <option>2021</option>
+                                            <option>2020</option>
+                                            <option>2019</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="modal-footer px-4">
+                            <button type="button" class="btn btn-secondary btn-pill" data-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary btn-pill">Aceptar</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
