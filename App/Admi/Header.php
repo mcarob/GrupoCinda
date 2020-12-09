@@ -18,6 +18,10 @@
                 </div>
             </div>
 
+
+
+
+
             <div class="navbar-right ">
                 <ul class="nav navbar-nav">
                     <li class="dropdown notifications-menu">
@@ -25,7 +29,7 @@
                             <i class="mdi mdi-bell-outline"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-right">
-                            <li class="dropdown-header">You have 5 notifications</li>
+                            <li class="dropdown-header">You have 4 notifications</li>
                             <li>
                                 <a href="#">
                                     <i class="mdi mdi-account-plus"></i> New user registered
